@@ -1,0 +1,13 @@
+h1{
+    font-size : 35xp;
+    border-bottom: 5px solid red;
+}
+
+#web{
+    color : darkcyan;
+}
+
+body{
+    background-color: darkgray;
+    color:white;
+}
