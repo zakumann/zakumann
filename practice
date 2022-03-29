@@ -88,10 +88,11 @@
             console.log(sum(10,20));
         </script>
         <h1>실습</h1>
-        <input type="button" value="부가세계산기" onclick="
-            let 가격 = prompt('가격?');
-            부가가치세 = 0.1
-            alert(가격*부가가치세);
-        ">
+        <input type="button" value="가로*세로" onclick="
+        let width = prompt('가로?');
+        let length = prompt('세로?')
+        multy = width*length
+        alert(multy);
+    ">
     </body>
 </html>
