@@ -1,0 +1,5 @@
+        <input type="button" value="부가세계산기" onclick="
+            let 가격 = prompt('가격?');
+            부가가치세 = 0.1
+            alert(가격*부가가치세);
+        ">
