@@ -1,0 +1,16 @@
+#html{
+    margin-top:100px;
+}
+.html_wrap{
+    margin:0 auto;
+    width:1920px;
+    display:flex;
+}
+.html-wrap{
+    max-width:50%;
+    margin:0 auto;
+}
+.html_what{
+    max-width:50%;
+    margin:0 auto;
+}

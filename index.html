@@ -3,24 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="Chrome">
-    <title>Zaku's coding webpage.</title>
-    <link rel="stylesheet" href="web.css">
+    <title>이정관의 홈페이지</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/nav_bar.css">
+    <link rel="stylesheet" href="./css/index.css">
 </head>
 <body>
-    <h1>Hello, my web page.</h1>
-    <div id="web">
-        <ol>
+    <button onclick="myFunction()">Toggle dark mode</button>
+    <section id="nav-list">
+        <div class="nav">
+        <h1>제 홈페이지에 오신 걸 환영합니다.</h1>
+        <ul>
             <li><a href="html.html">HTML</a></li>
             <li><a href="css.html">CSS</a></li>
             <li><a href="javascript.html">Javascript</a></li>
-        </ol>
-    </div>
-    <div>
-
-        <img src="image/web-development.png" alt="web programming" width = "300" height = "300"><br>
-
-        Welcome to my webpage. <a href="http://info.cern.ch/hypertext/WWW/TheProject.html">Here</a> is the first webpage in history.
-    </div>
+            <li><a href="AI.html">AI</a></li>
+            <li><a href="react.html">React</a></li>
+        </ul>
+        </div>
+    </section>
+    <section>
+        <div class="index_body">
+        <img src="image/monitor.png" alt="web programming">
+        <p></p>
+        </div>
+        <div>
+            <p>제 페이지에 오신 걸 환영합니다. <a href="http://info.cern.ch/hypertext/WWW/TheProject.html">Here</a> is the first webpage in history.</p> 
+        </div>
+    </section>
     <div id="disqus_thread"></div>
 <script>
     /**
@@ -39,6 +49,7 @@
     (d.head || d.body).appendChild(s);
     })();
 </script>
+<script src="./js/script.js"></script>
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 </body>
 </html>
