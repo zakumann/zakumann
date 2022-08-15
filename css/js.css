@@ -1,15 +1,15 @@
-#css{
+#js{
     margin-top:100px;
 }
-.css-wrap{
+.js-wrap{
     margin:0 auto;
     width:100%;
 }
-.css-img{
-    width:300px;
+.js-img{
+    max-width:50%;
     margin:0 auto;
 }
-.css-what{
+.js-what{
     padding: 100px;
     max-width:75%;
     margin:0 auto;

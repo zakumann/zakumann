@@ -1,15 +1,15 @@
-#css{
+#react{
     margin-top:100px;
 }
-.css-wrap{
+.re-wrap{
     margin:0 auto;
     width:100%;
 }
-.css-img{
-    width:300px;
+.re-img{
+    max-width:50%;
     margin:0 auto;
 }
-.css-what{
+.re-what{
     padding: 100px;
     max-width:75%;
     margin:0 auto;

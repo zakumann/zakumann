@@ -3,39 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="Chrome">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>이정관의 홈페이지</title>
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/nav_bar.css">
     <link rel="stylesheet" href="./css/css.css">
 </head>
 <body>
+    <button onclick="myFunction()">Toggle dark mode</button>
     <section id="nav-list">
         <div class="nav">
         <h1>CSS</h1>
         <ul>
             <li><a href="html.html">HTML</a></li>
-            <li><a>CSS</a></li>
+            <li><a href="">CSS</a></li>
             <li><a href="javascript.html">Javascript</a></li>
             <li><a href="AI.html">AI</a></li>
             <li><a href="react.html">React</a></li>
         </ul>
         </div>
     </section>
-    <div id="web">
-        <ol>
-            <li><a href="html.html">HTML</a></li>
-            <li>CSS</li>
-            <li><a href="javascript.html">Javascript</a></li>
-        </ol>
-        
-    </div>
-    <div>
-        CSS is ...<br>
-
-        <img src="image/CSS.png" alt="CSS image" width = "500" height = "300">
-    </div>
+    <section>
+        <div id="css">
+            <div class="css-wrap">
+                <div class="css-img">
+                    <img src="image/CSS.png" alt="CSS image">
+                </div>
+                <div class="css-what">
+                    <p>종속형 시트 또는 캐스케이딩 스타일 시트의 약자로, 마크업 언어(ex: HTML)가 웹사이트의 몸체를 담당한다면 CSS는 옷과 액세서리처럼 꾸미는 역할을 담당한다고 할 수 있다. 즉, HTML 구조는 그대로 두고 CSS 파일만 변경해도 전혀 다른 웹사이트처럼 꾸밀 수 있다.</p>
+                </div>
+            </div>
+        </div>
+    </section>
     <div>
         <a href="index.html">Return</a>
     </div>
+    <script src="./js/script.js"></script>
 </body>
 </html>

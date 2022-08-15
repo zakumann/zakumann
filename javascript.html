@@ -3,9 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="Chrome">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>이정관의 홈페이지</title>
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/nav_bar.css">
+    <link rel="stylesheet" href="./css/js.css">
 </head>
 <body>
     <button onclick="myFunction()">Toggle dark mode</button>
@@ -21,13 +23,21 @@
         </ul>
         </div>
     </section>
-    <div>
-        Javascript is ....<br>
-
-        <img src="image/javascript.png" alt="JavaScript image" width = "500" height = "300">
-    </div>
+    <section>
+        <div id="js">
+            <div class="js-wrap">
+                <div class="js-img">
+                    <img src="image/javascript.png" alt="javaScript image">
+                </div>
+                <div class="js-what">
+                    <p>자바스크립트(영어: JavaScript)는 객체 기반의 스크립트 프로그래밍 언어이다. 이 언어는 웹 브라우저 내에서 주로 사용되며, 다른 응용 프로그램의 내장 객체에도 접근할 수 있는 기능을 가지고 있다. 또한 Node.js와 같은 런타임 환경과 같이 서버 프로그래밍에도 사용되고 있다. </p>
+                </div>
+            </div>
+        </div>
+    </section>
     <div>
         <a href="index.html">Return</a>
     </div>
+    <script src="./js/script.js"></script>
 </body>
 </html>
