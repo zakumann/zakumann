@@ -5,9 +5,10 @@
     margin:0 auto;
     width:100%;
 }
-.css-img{
-    width:300px;
+.css-img img{
+    width:400px;
     margin:0 auto;
+    display:block;
 }
 .css-what{
     padding: 100px;

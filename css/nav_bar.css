@@ -50,3 +50,8 @@
     margin-top:50px;
     margin-left:5%;
 }
+@media screen and (max-width:730px){
+    .nav li{
+        padding: 5px 20px;
+    }
+}

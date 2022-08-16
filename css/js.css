@@ -5,12 +5,13 @@
     margin:0 auto;
     width:100%;
 }
-.js-img{
-    max-width:50%;
+.js-img img{
+    max-width:100%;
+    display:block;
     margin:0 auto;
 }
 .js-what{
     padding: 100px;
-    max-width:75%;
+    max-width:100%;
     margin:0 auto;
 }
